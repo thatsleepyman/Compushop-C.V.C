@@ -3,5 +3,10 @@ p {
 }
 .col {
     background-color: white;
-    margin-inline-start: 25px;
+    margin-inline: 25px;
+    margin-bottom: 50px;
+}
+
+.img_news {
+    width: 200px;
 }
