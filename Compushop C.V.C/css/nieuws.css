@@ -1,12 +1,18 @@
-p {
+/* p {
     text-align: center;
-}
+} */
 .col {
-    background-color: white;
+    /* background-color: #F5F5F5; */
     margin-inline: 25px;
     margin-bottom: 50px;
+    padding: 0px;
 }
 
 .img_news {
     width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.bold {
+    font-weight: bold;
 }
