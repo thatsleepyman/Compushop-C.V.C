@@ -1,4 +1,5 @@
-<!doctype html> <!--test-->
+<!doctype html>
+<!--test-->
 <html lang="en">
 
 <head>
@@ -15,10 +16,11 @@
 
 <body>
 
-    <img class="nav navbar-fixed-top" id="showcase" src="../img/menu.jpg" width="100%" class="bd-placeholder-img-lg img-fluid"
-        text="Responsive image">
+    <img class="nav navbar-fixed-top" id="showcase" src="../img/menu.jpg" width="100%"
+        class="bd-placeholder-img-lg img-fluid" text="Responsive image">
 
-    <nav class="menu navbar-fixed-top"> <!--Dit heet anders in alle andere html bestanden, is het handig als we dit overal het zelfde noemen?-->
+    <nav class="menu navbar-fixed-top">
+        <!--Dit heet anders in alle andere html bestanden, is het handig als we dit overal het zelfde noemen?-->
         <li><a href="./index.html" data-hover="Home">Home</a></li>
         <li><a href="./product_keuzen.html" data-hover="Producten">Producten</a></li>
         <li><a href="./nieuws.html" data-hover="Nieuws">Nieuws</a></li>
@@ -26,27 +28,39 @@
         <li><a href="./over_ons.html" data-hover="Over ons">Over ons</a></li>
     </nav>
 
-    <p class="container">
-        <rij class="row justify-content-lg-center">
-            <kolom class="col col-md-3">
-                
-                <img class="img_news bd-placeholder-img-lg image-fluid" src="../img/menu.jpg" alt="toetsenbord">
-                <strong>Onze nieuwe webshop is een feit</strong>
-                Het heeft heel wat bloed, zweet en tranen gekost, maar we mogen vol trots melden dat onze nieuwe website een feit is.
-            </kolom>
-            <kolom class="col col-md-3">
-                <img class="img_fluid image-news" src="../img/chip.png" alt="toetsenbord">
-                <span class="fw-bold"> Nvidia RTX 4080 16 GB heeft AD103-GPU, AD104 voor 12GB-uitvoerig</span>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col">
+                <div class="col">
+                    <img class="img_news bd-placeholder-img-lg image-fluid" src="../img/menu.jpg" alt="toetsenbord">
+                </div>
+                <div class="col">
+                    <strong>Onze nieuwe webshop is een feit</strong>
+                </div>
+                <div class="col">
+                    Het heeft heel wat bloed, zweet en tranen gekost, maar we mogen vol trots melden dat onze nieuwe
+                    website een feit is.
+                </div>
+            </div>
+            <div class="col">
+                <div class="col">
+                    <img class="img_fluid image-news" src="../img/chip.png" alt="toetsenbord">
+                </div>
+                <div class="col">
+                    <span class="fw-bold"> Nvidia RTX 4080 16 GB heeft AD104-GPU, AD104 voor 12GB-uitvoerig</span>
+                </div>
+                <div class="col">
+                </div>
                 Met de onthulling van Nvidia’s RTX 4000-serie komen de eerste custom videokaarten van de
                 add-in-boardpartners naar
                 buiten. Galax heeft niet alleen enkele opvallende ontwerpen getoond, de fabrikant heeft ook meer
                 specificaties over de
                 Lovelace-gpu’s zelf bekendgemaakt.
-            </kolom>
-            <kolom class="col col-md-3">Dit is mijn derde nieuws</kolom>
-        </rij>
-    </p>
-
+            </div>
+            <div class="col">Dit is mijn derde nieuws</div>
+        </div>
+    </div>
+</body>
     <footer>
         <section id="newsletter">
             <div class="container">
@@ -60,6 +74,6 @@
         <p>Copyright 2022 © Compushop C.V.C</p>
         </div>
     </footer>
-</body>
+
 
 </html>
