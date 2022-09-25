@@ -1,0 +1,15 @@
+/* BODY */
+/* Prebuilt vs Builder selectie */
+.prebuilt {
+    max-height: 40%;
+    max-width: 40%;
+    border: 5px solid rgba(255, 0, 0, 0.39);
+    box-sizing: border-box;
+}
+
+.builder {
+    max-height: 40%;
+    max-width: 40%;
+    border: 5px solid rgba(255, 0, 0, 0.39);
+    box-sizing: border-box;
+}
