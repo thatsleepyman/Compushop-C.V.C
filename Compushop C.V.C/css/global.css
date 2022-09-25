@@ -1,8 +1,8 @@
 /* GLOBALS */
 .container {
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 
@@ -87,6 +87,7 @@ showcase {
 /* FOOTER */
 /* Newsletter */
 #newsletter {
+    top: 100%;
     padding: 10px;
     color:#cdd6f4;
     background: #610808a1;
@@ -117,7 +118,7 @@ showcase {
 /* Change Newsletter button */
 .newsletter_button {
     height: 33px;
-    background: #f38ba8;
+    background: #ff0000;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
