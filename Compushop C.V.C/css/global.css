@@ -124,3 +124,8 @@ showcase {
     padding-right: 20px;
     color: #cdd6f4;
 }
+
+.footer {
+    top: 100%;
+    position: absolute;
+}
