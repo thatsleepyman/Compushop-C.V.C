@@ -1,11 +1,10 @@
 p {
     text-align: center;
 }
-.col {
-    background-color: #F5F5F5;
-    margin-inline: 25px;
-    margin-bottom: 50px;
-    padding: 0px;
+
+.img_chip {
+    height: 120px;
+    
 }
 
 .img_news {
@@ -15,5 +14,9 @@ p {
 }
 .bold {
     font-weight: bold;
+}
+
+p {
+    padding: 50px;
 }
 
