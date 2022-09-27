@@ -22,7 +22,7 @@
     <nav class="menu">
         <li><a href="./index.html" data-hover="Home">Home</a></li>
         <li><a href="./product_keuzen.html" data-hover="Producten">Producten</a></li>
-        <li><a href="./nieuws.html" data-hover="Nieuws">Nieuws</a></li>
+        <li><a href="./nieuws.php" data-hover="Nieuws">Nieuws</a></li>
         <li><a href="./contact.html" data-hover="Contact">Contact</a></li>
         <li><a href="./over_ons.html" data-hover="Over ons">Over ons</a></li>
     </nav>
