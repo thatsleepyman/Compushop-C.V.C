@@ -1,29 +1,21 @@
-/* .vincent{
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    display: block;
-    margin-left:80%;
-    
-} */
-
-.section {
-    background-color: white;
-    align-items: center;
-    justify-content:center;
-    padding: 40px;
-}
-
 .section img {
-    height: 250px;
-
+    height: 200px;
+    width: 300px;
 }
 
-.section h5 {
-    margin: 0;
-    color: black;
-}
 
 .section p {
     color: black;
+    text-align: center;
 }
+
+
+
+.h2 {
+    text-align: right;
+    text-shadow: #955958;
+    margin: 0px;
+    padding-left: 80px;
+    
+}
+

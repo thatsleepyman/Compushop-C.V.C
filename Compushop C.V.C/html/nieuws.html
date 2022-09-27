@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compushop C.V.C | Nieuws</title>
     <link rel="stylesheet" href="../css/global.css">
@@ -14,71 +15,65 @@
 </head>
 
 <body>
-    <!-- <header class="nav sticky-top"> 
-        Hier wil ik nog zorgen dat de header sticky blijft)
-    -->
-    <img class="nav sticky-top bd-placeholder-img-lg img-fluid" id="showcase" src="../img/menu.jpg" alt="menu image">
 
-    <nav class="menu">
+    <img class="nav navbar-fixed-top" id="showcase" src="../img/menu.jpg" width="100%"
+        class="bd-placeholder-img-lg img-fluid" text="Responsive image">
+
+    <nav class="menu navbar-fixed-top">
+        <!--Dit heet anders in alle andere html bestanden, is het handig als we dit overal het zelfde noemen?-->
         <li><a href="./index.html" data-hover="Home">Home</a></li>
         <li><a href="./product_keuzen.html" data-hover="Producten">Producten</a></li>
         <li><a href="./nieuws.html" data-hover="Nieuws">Nieuws</a></li>
         <li><a href="./contact.html" data-hover="Contact">Contact</a></li>
         <li><a href="./over_ons.html" data-hover="Over ons">Over ons</a></li>
     </nav>
-    <!-- </header> -->
 
-    <div class="container-fluid mb-10">
-        <div class="row">
-            <div class="col mb-10">
-                <div class="card">
-                    <img src="/img/menu.jpg" class="card-img-top" alt="menu image" />
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Nieuwe site is een feit</h5>
-                        <p class="card-text">
-                            Ik mag wel zeggen dat het bloed, zweet en tranen heeft gekost, maar onze nieuwe website is
-                            een feit.
-                            Ik denk dat ik voor het hele team kan spreken dat we trots mogen zijn op onze website.
-                            Persoonlijk heb ik best veel geleerd tijdens het bouwen van deze website.
-                            Niet alleen heb ik de voordelen van bootstrap ervaren. Ook het werken in teamverband om
-                            samen tot een goed resultaat te komen was een nieuwe positieve ervaring voor mij.
-                        </p>
-                    </div>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col">
+                <div class="col">
+                    <img class="img_news bd-placeholder-img-lg image-fluid" src="../img/menu.jpg" alt="toetsenbord">
+                </div>
+                <div class="col">
+                    <strong>Onze nieuwe webshop is een feit</strong>
+                </div>
+                <div class="col">
+                    Het heeft heel wat bloed, zweet en tranen gekost, maar we mogen vol trots melden dat onze nieuwe
+                    website een feit is.
                 </div>
             </div>
             <div class="col">
-                <div class="card">
-                    <img src="/img/chip.jpg" class="card-img-top img_chip"
-                        alt="chip" />
-                    <div class="card-body">
-                        <h5 class="card-title">Nvidia Hopper H100-GPU voor datacentra heeft 120GB HBM2e-geheugen</h5>
-                        <p class="card-text">Er is een nieuwe Nvidia Hopper accelerator-gpu opgedoken. De H100 wordt aangedreven door de GH100-gpu en is een
-                        pci-express-gebaseerde kaart met 120 GB HBM2e-werkgeheugen. Daarmee wordt de bandbreedte vergroot naar 3 Terabyte/s, in
-                        plaats van het huidige 2 Terabyte/s op het 80GB-model.</p>
-                    </div>
+                <div class="col">
+                    <img class="img_fluid image-news" src="../img/chip.png" alt="toetsenbord">
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="../img/moederbord.jpg" class="card-img-top"
-                        alt="Fissure in Sandstone" />
-                    <div class="card-body">
-                        <h5 class="card-title">Intel Arc A770 unboxing video's op 30 september, lancering 5 oktober</h5>
-                        <p class="card-text">Bekende bronnen van VideoCardz vertellen dat Intel zijn Arc A770 Limited Edition videokaart op 5 oktober op de markt wil
-                        brengen. Vanaf vrijdag 30 september zouden enkele reviewers hun unboxing video's mogen tonen op het internet, die reeds
-                        klaarstaan voor publicatie.
-                        Het is niet zeker of de Arc A750 tegelijkertijd uitgebracht wordt. Volgens eerdere berichtgeving zouden beide modellen tegelijk gelanceerd worden. </p>
-                    </div>
+                <div class="col">
+                    <span class="fw-bold"> Nvidia RTX 4080 16 GB heeft AD104-GPU, AD104 voor 12GB-uitvoerig</span>
                 </div>
+                <div class="col">
+                </div>
+                Met de onthulling van Nvidia’s RTX 4000-serie komen de eerste custom videokaarten van de
+                add-in-boardpartners naar
+                buiten. Galax heeft niet alleen enkele opvallende ontwerpen getoond, de fabrikant heeft ook meer
+                specificaties over de
+                Lovelace-gpu’s zelf bekendgemaakt.
             </div>
+            <div class="col">Dit is mijn derde nieuws</div>
         </div>
     </div>
 </body>
-<footer>
-    
-    <p>Copyright 2022 © Compushop C.V.C</p>
-    </div>
-</footer>
+    <footer>
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to me</h1>
+                <form>
+                    <input type="email" placeholder="Enter Email...">
+                    <button type="submit" class="newsletter_button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <p>Copyright 2022 © Compushop C.V.C</p>
+        </div>
+    </footer>
 
 
 </html>
