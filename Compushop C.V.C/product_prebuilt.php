@@ -1,18 +1,7 @@
-<!doctype html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compushop C.V.C | Product Prebuilt</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/product_prebuilt.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+<?php
+include "header.php";
+?>
 
-<body>
-   
 <img id="showcase" src="../img/menu.jpg" width="100%" class="bd-placeholder-img-lg img-fluid" text="Responsive image">
 
     <nav class="menu">
