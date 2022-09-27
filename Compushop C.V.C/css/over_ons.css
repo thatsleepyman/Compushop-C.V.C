@@ -1,0 +1,21 @@
+.section img {
+    height: 200px;
+    width: 300px;
+}
+
+
+.section p {
+    color: black;
+    text-align: center;
+}
+
+
+
+.h2 {
+    text-align: right;
+    text-shadow: #955958;
+    margin: 0px;
+    padding-left: 80px;
+    
+}
+
