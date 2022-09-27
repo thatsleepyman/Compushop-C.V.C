@@ -9,7 +9,7 @@
 /* BODY */
 body {
     background-color: #d69d9d;
-    text-align: center;
+    /* text-align: center; */
   
 }
 
@@ -127,3 +127,8 @@ showcase {
     top: 100%;
     position: absolute;
 }
+
+.copyright {
+    text-align: center;    
+}
+
