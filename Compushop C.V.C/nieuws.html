@@ -1,80 +1,117 @@
 <!doctype html>
-<!--test-->
-<html lang="en">
+<!-- Dit bestand is gevalideerd-->
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compushop C.V.C | Nieuws</title>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./css/nieuws.css">
+    <title>Compushop C.V.C | Header</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet">
+
+    <!-- MDB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <link rel="stylesheet" href="./css/global.css">
-    
+    <link rel="stylesheet" href="./css/header.css">
+
+
 </head>
+<img class="nav navbar-fixed-top bd-placeholder-img-lg img-fluid" id="showcase" src="./img/menu.jpg" alt="menu foto">
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+            <ul class="navbar-nav justify-content-center mb-2 mb-lg-0 menu">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./product_keuzen.html">Producten</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nieuws.html">Nieuws</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./over_ons.html">Over ons</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
 
-<body>
+            </span>
+        </div>
+    </div>
+</nav>
+    <!-- Hier begint de pagina -->
 
-    <img class="nav navbar-fixed-top" id="showcase" src="./img/menu.jpg" width="100%"
-        class="bd-placeholder-img-lg img-fluid" text="Responsive image">
-
-    <nav class="menu navbar-fixed-top">
-        <!--Dit heet anders in alle andere html bestanden, is het handig als we dit overal het zelfde noemen?-->
-        <li><a href="./index.html" data-hover="Home">Home</a></li>
-        <li><a href="./product_keuzen.html" data-hover="Producten">Producten</a></li>
-        <li><a href="./nieuws.html" data-hover="Nieuws">Nieuws</a></li>
-        <li><a href="./contact.html" data-hover="Contact">Contact</a></li>
-        <li><a href="./over_ons.html" data-hover="Over ons">Over ons</a></li>
-    </nav>
 
     <div class="container-fluid">
         <div class="row ">
             <div class="col">
-                <div class="col">
-                    <img class="img_news bd-placeholder-img-lg image-fluid" src="./img/menu.jpg" alt="toetsenbord">
-                </div>
-                <div class="col">
-                    <strong>Onze nieuwe webshop is een feit</strong>
-                </div>
-                <div class="col">
-                    Het heeft heel wat bloed, zweet en tranen gekost, maar we mogen vol trots melden dat onze nieuwe
-                    website een feit is.
+                <div class="card">
+                    <img src="./img/menu.jpg" class="card-img-top" alt="foto van menu" >
+                    <div class="card-body">
+                        <h5 class="card-title">Onze nieuwe webshop is een feit.</h5>
+                        <p class="card-text">Ik mag wel zeggen dat het bloed, zweet en tranen heeft gekost, maar onze nieuwe website is
+                        een feit.
+                        Ik denk dat ik voor het hele team kan spreken dat we trots mogen zijn op onze website.
+                        Persoonlijk heb ik best veel geleerd tijdens het bouwen van deze website.
+                        Niet alleen heb ik de voordelen van bootstrap ervaren. Ook het werken in teamverband om
+                        samen tot een goed resultaat te komen was een nieuwe positieve ervaring voor mij.</p>
+                    </div>
                 </div>
             </div>
             <div class="col">
-                <div class="col">
-                    <img class="img_fluid image-news" src="./img/chip.png" alt="toetsenbord">
+                <div class="card">
+                    <img style= "height: 200px" src="./img/beeld-future.jpg" class="card-img-top" alt="foto een onderdeel">
+                    <div class="card-body">
+                        <h5 class="card-title">Nvidia RTX 3070 Ti grafische kaart kan binnenkort grote upgrade krijgen</h5>
+                        <p class="card-text">Nvidia werkt mogelijk aan een nieuwe versie van de GeForce RTX 3070 Ti. Dat is als we het laatste lek mogen geloven
+                        tenminste.
+                        
+                        Dit werd gelekt door de bekende leaker @harukaze5719 op Twitter (zoals gespot door Wccftech(opens in new tab)). Die
+                        spotte namelijk een nieuwe RTX 3070 Ti variant die door Gigabyte bij de EEC(opens in new tab) (Euraziatische Economische
+                        Commissie) was vermeld.
+                    info van: global.techradar.com</p>
+                    </div>
                 </div>
-                <div class="col">
-                    <span class="fw-bold"> Nvidia RTX 4080 16 GB heeft AD104-GPU, AD104 voor 12GB-uitvoerig</span>
-                </div>
-                <div class="col">
-                </div>
-                Met de onthulling van Nvidia’s RTX 4000-serie komen de eerste custom videokaarten van de
-                add-in-boardpartners naar
-                buiten. Galax heeft niet alleen enkele opvallende ontwerpen getoond, de fabrikant heeft ook meer
-                specificaties over de
-                Lovelace-gpu’s zelf bekendgemaakt.
+
             </div>
-            <div class="col">Dit is mijn derde nieuws</div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/printer.jpg" class="card-img-top" alt="foto van een printer">
+                    <div class="card-body">
+                        <h5 class="card-title">Onze nieuwe webshop is een feit.</h5>
+                        <p class="card-text">S</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
-    <footer>
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe to me</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="newsletter_button">Subscribe</button>
-                </form>
-            </div>
-        </section>
-        <p>Copyright 2022 © Compushop C.V.C</p>
+<footer>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to me</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="newsletter_button">Subscribe</button>
+            </form>
         </div>
-    </footer>
+    </section>
+    <p>Copyright 2022 © Compushop C.V.C</p>
+    </div>
+</footer>
 
 
 </html>
