@@ -16,109 +16,121 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nieuws.css"
 
 
 </head>
-<body>
-<img class="nav navbar-fixed-top bd-placeholder-img-lg img-fluid" id="showcase" src="./img/menu.jpg" alt="menu foto">
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarText">
-            <ul id="menu" class="navbar-nav justify-content-center mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active current" data-hover="Home" aria-current="page"
-                        href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-hover="Producten" href="./product_keuzen.html">Producten</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-hover="Nieuws" href="./nieuws.html">Nieuws</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-hover="Contact" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-hover="Over ons" href="./over_ons.html">Over ons</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
 
-            </span>
+<body>
+    <div class="sticky-top" id="top">
+        <img class="nav navbar-fixed-top bd-placeholder-img-lg img-fluid" id="showcase" src="./img/menu.jpg"
+            alt="menu foto">
+        <nav class="navbar navbar-expand-lg" id="top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul id="menu" class="navbar-nav justify-content-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active current" data-hover="Home" aria-current="page"
+                                href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-hover="Producten" href="./product_keuzen.html">Producten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-hover="Nieuws" href="./nieuws.html">Nieuws</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-hover="Contact" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-hover="Over ons" href="./over_ons.html">Over ons</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Hier begint de pagina -->
+    <div class="container-md sticky-bottom">
+        <div class="row gy-3">
+            <!--- gy-3 regelt de afstand onderling bij verticale plaatsing-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img style="height: 200px" src="./img/beeld-future.jpg" class="card-img-top"
+                        alt="foto een onderdeel">
+                    <div class="card-body">
+                        <h5 class="card-title">Nvidia RTX 3070 Ti grafische kaart kan binnenkort grote upgrade krijgen
+                        </h5>
+                        <p class="card-text">Nvidia werkt mogelijk aan een nieuwe versie van de GeForce RTX 3070 Ti. Dat
+                            is
+                            als we het laatste lek mogen geloven
+                            tenminste.
+                        <p>
+                            Dit werd gelekt door de bekende leaker @harukaze5719 op Twitter (zoals gespot door
+                            Wccftech(opens in new tab)). Die
+                            spotte namelijk een nieuwe RTX 3070 Ti variant die door Gigabyte bij de EEC(opens in new
+                            tab)
+                            (Euraziatische Economische
+                            Commissie) was vermeld.</p>
+                        <p class="note note-info">info van: global.techradar.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/menu.jpg" class="card-img-top" alt="foto van menu">
+                    <div class="card-body">
+                        <h5 class="card-title">Onze nieuwe webshop is een feit.</h5>
+                        <p class="card-text">Ik mag wel zeggen dat het bloed, zweet en tranen heeft gekost, maar onze
+                            nieuwe
+                            website is
+                            een feit.
+                            Ik denk dat ik voor het hele team kan spreken dat we trots mogen zijn op onze website.
+                            Persoonlijk heb ik best veel geleerd tijdens het bouwen van deze website.
+                            Niet alleen heb ik de voordelen van bootstrap ervaren. Ook het werken in teamverband om
+                            samen tot een goed resultaat te komen was een nieuwe positieve ervaring voor mij.</p>
+                        <p class="note note-info">info van: CorbaDesign</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/apple.jpg" class="card-img-top" alt="apple logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Amerikaanse senatoren zetten Apple onder druk wegens gebruik YMTC-chips
+                        </h5>
+                        <p class="card-text">Amerikaanse senatoren willen een onderzoek naar een mogelijke deal tussen
+                            Apple
+                            en het Chinese Yangtze Memory
+                            Technologies Co (YMTC) rondom geheugenchips. Zowel Democraten als Republieken zijn zeer
+                            kritisch
+                            over de deal. Zij zijn
+                            onder meer bezorgd over mogelijke privacy- en securityrisico's voor Apple-gebruikers die aan
+                            de
+                            deal verbonden zijn.</p>
+                        <p>
+                            In een brief roepen de senatoren Avril Haines, directeur nationale inlichtingen, de deal te
+                            onderzoeken. Ook vragen zij
+                            Haines in kaart te brengen wat de rol van YMTC was in het ondersteunen van andere Chinese
+                            bedrijven waartegen
+                            Amerikaanse exportsancties zijn ingesteld, waaronder fabrikant van telecom- en
+                            netwerkapparatuur
+                            Huawei. Ook willen de
+                            senatoren dat eventuele banden van YMTC met het Chinese leger worden onderzocht.</p>
+                        <p class="note note-info">info van: dutchitchannel.nl</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
-<!-- Hier begint de pagina -->
-<div class="container-md">
-    <div class="row gy-3">
-        <!--- gy-3 regelt de afstand onderling bij verticale plaatsing-->
-        <div class="col-md-4">
-            <div class="card">
-                <img style="height: 200px" src="./img/beeld-future.jpg" class="card-img-top" alt="foto een onderdeel">
-                <div class="card-body">
-                    <h5 class="card-title">Nvidia RTX 3070 Ti grafische kaart kan binnenkort grote upgrade krijgen</h5>
-                    <p class="card-text">Nvidia werkt mogelijk aan een nieuwe versie van de GeForce RTX 3070 Ti. Dat is
-                        als we het laatste lek mogen geloven
-                        tenminste.
-                    <p>
-                        Dit werd gelekt door de bekende leaker @harukaze5719 op Twitter (zoals gespot door
-                        Wccftech(opens in new tab)). Die
-                        spotte namelijk een nieuwe RTX 3070 Ti variant die door Gigabyte bij de EEC(opens in new tab)
-                        (Euraziatische Economische
-                        Commissie) was vermeld.</p>
-                    <p class="note note-info">info van: global.techradar.com</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="./img/menu.jpg" class="card-img-top" alt="foto van menu">
-                <div class="card-body">
-                    <h5 class="card-title">Onze nieuwe webshop is een feit.</h5>
-                    <p class="card-text">Ik mag wel zeggen dat het bloed, zweet en tranen heeft gekost, maar onze nieuwe
-                        website is
-                        een feit.
-                        Ik denk dat ik voor het hele team kan spreken dat we trots mogen zijn op onze website.
-                        Persoonlijk heb ik best veel geleerd tijdens het bouwen van deze website.
-                        Niet alleen heb ik de voordelen van bootstrap ervaren. Ook het werken in teamverband om
-                        samen tot een goed resultaat te komen was een nieuwe positieve ervaring voor mij.</p>
-                    <p class="note note-info">info van: CorbaDesign</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="./img/apple.jpg" class="card-img-top" alt="apple logo">
-                <div class="card-body">
-                    <h5 class="card-title">Amerikaanse senatoren zetten Apple onder druk wegens gebruik YMTC-chips</h5>
-                    <p class="card-text">Amerikaanse senatoren willen een onderzoek naar een mogelijke deal tussen Apple
-                        en het Chinese Yangtze Memory
-                        Technologies Co (YMTC) rondom geheugenchips. Zowel Democraten als Republieken zijn zeer kritisch
-                        over de deal. Zij zijn
-                        onder meer bezorgd over mogelijke privacy- en securityrisico's voor Apple-gebruikers die aan de
-                        deal verbonden zijn.</p>
-                    <p>
-                        In een brief roepen de senatoren Avril Haines, directeur nationale inlichtingen, de deal te
-                        onderzoeken. Ook vragen zij
-                        Haines in kaart te brengen wat de rol van YMTC was in het ondersteunen van andere Chinese
-                        bedrijven waartegen
-                        Amerikaanse exportsancties zijn ingesteld, waaronder fabrikant van telecom- en netwerkapparatuur
-                        Huawei. Ook willen de
-                        senatoren dat eventuele banden van YMTC met het Chinese leger worden onderzocht.</p>
-                    <p class="note note-info">info van: dutchitchannel.nl</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<footer>
-    <p class="text-center">Copyright 2022 © Compushop C.V.C</p>
-</footer>
+    <footer>
+        <p class="text-center">Copyright 2022 © Compushop C.V.C</p>
+    </footer>
 </body>
 
 
