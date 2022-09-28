@@ -48,3 +48,7 @@ li:hover a,
 .current a {
     transform: translateY(100%);
 }
+
+.row {
+    margin: 20px;
+}
