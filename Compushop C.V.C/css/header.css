@@ -66,3 +66,6 @@ body {
 .row {
     margin: 20px;
 }
+#card-icon {
+    color: #000000;
+}
