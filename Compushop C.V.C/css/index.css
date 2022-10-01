@@ -38,3 +38,7 @@
     /* box-sizing: border-box; */
     text-align: center;
   }
+
+  h5 {
+    color: rgba(179, 20, 20, 0.623)
+  }
