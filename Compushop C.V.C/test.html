@@ -20,38 +20,57 @@
         });
     </script>
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/product_builder.css">
+    <!-- <link rel="stylesheet" href="./css/product_builder.css"> -->
 </head>
 
 <body>
-    <div id="header" class="sticky-top"></div>
+<div class="container"> 
+    <div class="row">
+        <div class="col-md-3">
+            <div class="col-md-9">
+                test
+            </div>
 
-    <!--Buttons for the iFrames-->
-    <!-- Je roept your_choice aan met een parameter bv. cases-->
-    <button id="huizing_button" onClick="your_choice('cases')">Huizing</button>
-    <button id="moederbord_button" onClick="your_choice('motherboard')">Moederbord</button>
-    <button id="cpu_button" onClick="your_choice('iframe_cpu')">CPU</button>
-    <button id="gpu_button" onClick="your_choice('gpu')">Grafische kaart</button>
-    <button id="ram_button" onClick="your_choice('ram')">RAM Geheugen</button>
-    <button id="werkgeheugen_button" onClick="your_choice('werkgeheugen')">Werk Geheugen</button>
-    <button id="koeling_button" onClick="your_choice('koeling')">Koeling</button>
-    <button id="voeding_button" onClick="your_choice('voeding')">Voeding</button>
-    <button id="monitoren_button" onClick="your_choice('monitoren')">Monitoren</button>
-    <button id="muizen_button" onClick="your_choice('muizen')">Muizen</button>
-    <button id="toetsenborden_button" onClick="your_choice('toetsenbord')">Toetsenborden</button>
+        </div>
+    </div>
+</div>
 
-    <!--Set Div around iFrames to allow call in CSS-->
-    <div id="iFrame"></div>
+    <!-- <div id="header" class="sticky-top"></div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 float-left">
 
+
+
+            <!--Buttons for the iFrames-->
+            <!-- Je roept your_choice aan met een parameter bv. cases-->
+            <button id="huizing_button" onClick="your_choice('cases')">Huizing</button>
+            <button id="moederbord_button" onClick="your_choice('motherboard')">Moederbord</button>
+            <button id="cpu_button" onClick="your_choice('iframe_cpu')">CPU</button>
+            <button id="gpu_button" onClick="your_choice('gpu')">Grafische kaart</button>
+            <button id="ram_button" onClick="your_choice('ram')">RAM Geheugen</button>
+            <button id="werkgeheugen_button" onClick="your_choice('werkgeheugen')">Werk Geheugen</button>
+            <button id="koeling_button" onClick="your_choice('koeling')">Koeling</button>
+            <button id="voeding_button" onClick="your_choice('voeding')">Voeding</button>
+            <button id="monitoren_button" onClick="your_choice('monitoren')">Monitoren</button>
+            <button id="muizen_button" onClick="your_choice('muizen')">Muizen</button>
+            <button id="toetsenborden_button" onClick="your_choice('toetsenbord')">Toetsenborden</button>
+        </div>
+</div>
+
+        <!--Set Div around iFrames to allow call in CSS-->
+        <div class="col-md-9" id="iFrame">test</div>
+    </div>
+    </div>
     <!--Functions to Load iFrame on button click-->
     <script>
 
         function your_choice(test) {
             $('#iFrame').load("./iframes/" + test + ".html");
-          // Laad  ./parameter.html in de div met iFrame dus ./cases.html  
-          // als je deze test en dan op F12 klikt kan je zien welke pagina hij probeert te laten en hoe het script dus werkt.
+            // Laad  ./parameter.html in de div met iFrame dus ./cases.html  
+            // als je deze test en dan op F12 klikt kan je zien welke pagina hij probeert te laten en hoe het script dus werkt.
         }
-    
+
     </script>
 
     <div id="newsletter"></div>
