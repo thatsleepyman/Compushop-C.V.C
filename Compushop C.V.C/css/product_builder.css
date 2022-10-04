@@ -7,46 +7,89 @@
 }
 
 /* Buttons */
-#huizing_button {
+#buttons {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+}
 
+#huizing_button {
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #moederbord_button {
-
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #cpu_button {
-
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #gpu_button {
-    
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #ram_button {
-    
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #werkgeheugen_button {
-    
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #koeling_button {
-    
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
 
 #voeding_button {
-    
-}
-
-#monitoren_button {
-    
-}
-
-#muizen_button {
-    
-}
-
-#toetsenborden_button {
-    
+    background-color: #fd0e0e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
 }
