@@ -1,27 +1,13 @@
 /* BODY */
-/* Prebuilt vs Builder selectie */
-.prebuilt {
-    max-height: 40%;
-    max-width: 40%;
+
+.builder {
+    max-width: 400px;
     border: 5px solid rgba(255, 0, 0, 0.39);
-    box-sizing: border-box;
-    float: left;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.builder {
-    max-height: 40%;
-    max-width: 40%;
-    border: 5px solid rgba(255, 0, 0, 0.39);
-    box-sizing: border-box;
-    float: right;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.col {
+    text-align: center;
 }
-.copyright {
-    text-align: center;    
-}
-
