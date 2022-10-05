@@ -20,26 +20,26 @@ showcase {
 }
 
 /* Menu bar */
-.menu {
+#menu {
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.menu * {
+#menu * {
     box-sizing: border-box;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
 }
 
-.menu li {
+#menu li {
     display: inline-block;
     list-style: outside none none;
     margin: 1.5em;
     overflow: hidden;
 }
 
-.menu a {
+#menu a {
     padding: 0.3em 0;
     color: #0c0000;
     position: relative;
@@ -49,14 +49,14 @@ showcase {
     text-decoration: none;
 }
 
-.menu a:before,
-.menu a:after {
+#menu a:before,
+#menu a:after {
     position: absolute;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
 }
 
-.menu a:before {
+#menu a:before {
     bottom: 100%;
     display: block;
     height: 3px;
@@ -65,7 +65,7 @@ showcase {
     background-color: #fd0e0e;
 }
 
-.menu a:after {
+#menu a:after {
     padding: 0.3em 0;
     position: absolute;
     bottom: 100%;
@@ -75,8 +75,8 @@ showcase {
     white-space: nowrap;
 }
 
-.menu li:hover a,
-.menu .current a {
+#menu li:hover a,
+#menu .current a {
     transform: translateY(100%);
 }
 
@@ -134,4 +134,11 @@ showcase {
 
 .navbar {
     background-color: #d69d9d;
+}
+.row {
+    margin: 20px;
+}
+
+#card-icon {
+    color: #000000;
 }
