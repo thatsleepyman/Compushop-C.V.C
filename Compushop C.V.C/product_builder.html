@@ -23,49 +23,33 @@
 <body>
     <div id="header" class="sticky-top"></div>
 
-    <div id="buttons">
+    <div class="container-float">
+        <div class="row">
+            <div class="col col-md-3 buttons">
         <!--Buttons voor de iFrames-->
-        <button id="huizing_button" onClick="huizing_button()">Huizing</button>
-        <button id="moederbord_button" onClick="moederbord_button()">Moederbord</button>
-        <button id="cpu_button" onClick="cpu_button()">CPU</button>
-        <button id="gpu_button" onClick="gpu_button()">Grafische kaart</button>
-        <button id="ram_button" onClick="ram_button()">RAM Geheugen</button>
-        <button id="werkgeheugen_button" onClick="werkgeheugen_button()">Werk Geheugen</button>
-        <button id="koeling_button" onClick="koeling_button()">Koeling</button>
-        <button id="voeding_button" onClick="voeding_button()">Voeding</button>
+                <button class="myButton" onClick="keuze('iframe_huizing')">Huizing</button>
+                <button class="myButton" onClick="keuze('iframe_moederbord')">Moederbord</button>
+                <button class="myButton" onClick="keuze('iframe_cpu')">CPU</button>
+                <button class="myButton" onClick="keuze('iframe_gpu')">Grafische kaart</button>
+                <button class="myButton" onClick="keuze('iframe_ram')">RAM Geheugen</button>
+                <button class="myButton" onClick="keuze('iframe_werkgeheugen')">Werk Geheugen</button>
+                <button class="myButton" onClick="keuze('iframe_koeling')">Koeling</button>
+                <button class="myButton" onClick="keuze('iframe_voeding')">Voeding</button>
+            </div>
+            <div class="col col-md-9" id="iFrame"></div>
+        </div>
     </div>
+
+ 
     
-    <!--Zet Div om de iFrames om het in CSS aan te kunnen roepen-->
-    <div>
-        <iframe id="iFrame"></iframe>
-    </div>
+          
 
     <!--Functie om iFrame in te laden na button click-->
     <script>
-        var iframe=document.getElementById("iFrame");
-        function huizing_button() {
-            iframe.src = "./iframes/iframe_huizing.html";
-        }
-        function moederbord_button() {
-            iframe.src = "./iframes/iframe_moederbord.html";
-        }
-        function cpu_button() {
-            iframe.src = "./iframes/iframe_cpu.html";
-        }
-        function gpu_button() {
-            iframe.src = "./iframes/iframe_gpu.html";
-        }
-        function ram_button() {
-            iframe.src = "./iframes/iframe_ram.html";
-        }
-        function werkgeheugen_button() {
-            iframe.src = "./iframes/iframe_werkgeheugen.html";
-        }
-        function koeling_button() {
-            iframe.src = "./iframes/iframe_koeling.html";
-        }
-        function voeding_button() {
-            iframe.src = "./iframes/iframe_voeding.html";
+       function keuze(test) {
+            $('#iFrame').load("./iframes/" + test + ".html");
+            // Laad  ./parameter.html in de div met iFrame dus ./cases.html  
+            // als je deze test en dan op F12 klikt kan je zien welke pagina hij probeert te laten en hoe het script dus werkt.
         }
     </script>
 
