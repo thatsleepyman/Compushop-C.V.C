@@ -6,10 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Pagina Title-->
     <title>Compushop C.V.C | Winkelwagen</title>
+
+    <!--Links voor Bootstrap-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Dit script laad header.html in de div met het ID content-->
     <script>
-        // $ = quiry selector 
+        // $ = query selector 
         $(document).ready(function () {
             $('#content').load("header.html");
             $('#copyright').load("copyright.html");
@@ -18,10 +23,10 @@
 </head>
 
 <body>
-    <div id="content" class="sticky-top"></div> 
+    <div id="content" class="sticky-top"></div>
 
     <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100"> 
+        <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12">
                 <div class="card card-registration card-registration-2" style="border-radius: 15px;">
                     <div class="card-body p-0">
@@ -65,7 +70,9 @@
                                     <hr class="my-4">
 
                                     <div class="pt-5">
-                                        <h6 class="mb-0"><a href="#!" class="text-body"><i class="fas fa-long-arrow-alt-left me-2"></i>Verder winkelen.</a></h6>
+                                        <h6 class="mb-0"><a href="#!" class="text-body"><i
+                                                    class="fas fa-long-arrow-alt-left me-2"></i>Verder winkelen.</a>
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +103,10 @@
             </div>
         </div>
     </div>
-    <div id="newsletter"></div>
-    <div id="copyright"></div>
+    
+    <!--Dit geeft de Bar onder aan de website aan en de copyright tekst daar onder-->
+    <p id="newsletter"></p>
+    <p id="copyright"></p>
 </body>
 
 </html>
