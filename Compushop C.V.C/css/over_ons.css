@@ -1,24 +1,19 @@
+/* Sizing van de img */
 .section img {
     height: 50%;
     width: 50%;
 }
 
-
+/* Styling van de tekst bij de img */
 .section p {
     color: black;
     text-align: center;
 }
 
-
-
+/* Styling h2 */
 .h2 {
     text-align: right;
     text-shadow: #955958;
     margin: 0px;
-    padding-left: 80px;
-    
+    padding-left: 80px;   
 }
-.copyright {
-    text-align: center;    
-}
-

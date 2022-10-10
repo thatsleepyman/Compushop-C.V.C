@@ -1,64 +1,84 @@
+/* Note CSS Unit size;
+https://www.w3schools.com/CSSref/css_units.asp
+*/
 
 
+/* Styling voor de <H1> "Contact Formulier" en de <p> text er onder */
 h1, p {
     margin: 1em auto;
     text-align: center;
   }
   
+  /* Styling voor de <form action='#'> */
   form {
     width: 60vw;
     max-width: 800px;
     min-width: 300px;
     margin: 0 auto;
+    /* em = relatief aan de font-size van het element. 2em = 2x */
     padding-bottom: 2em;
   }
   
+    /* Padding en border voor de <fieldset> */
   fieldset {
     border: none;
+    /* rem = relative grote tot de root element grote */
     padding: 2rem 0;
     border-bottom: 3px solid #ea0b0b;
   }
   
+  /* Verwijderd de border-bottom van de fieldset */
   fieldset:last-of-type {
     border-bottom: none;
   }
   
+  /* Maakt het Label een "Block" */
   label {
     display: block;
+    /* rem = relative grote tot de root element grote */
     margin: 0.5rem 0;
   }
   
+  /* Margin, width en height voor de Input, textarea en select */
   input,
   textarea,
   select {
     margin: 10px 0 0 0;
     width: 100%;
+    /* em = relatief aan de font-size van het element. 2em = 2x */
     min-height: 2em;
   }
   
+  /* Kleuren van de input en textarea */
   input, textarea {
     background-color: #ba5555;
     border: 1px solid #0a0a23;
     color: #ffffff;
   }
   
+  /* Styling van de class inline van de Labels "persoonlijk-account", "business-account" en "terms-and-conditions" */
   .inline {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
   }
   
+  /* Sizing en kleuren voor de input */
   input[type="submit"] {
     display: block;
     width: 60%;
+    /* em = relatief aan de font-size van het element. 2em = 2x */
     margin: 1em auto;
     height: 2em;
+    /* rem = relative grote tot de root element grote */
     font-size: 1.1rem;
     background-color: #3b3b4f;
+    /* border als je in een van de input boxen klikt */
     border-color: rgb(12, 1, 1);
     min-width: 300px;
   }
   
+  /* Styling voor de "Choose file button" */
   input[type="file"] {
     padding: 1px 2px;
   }
