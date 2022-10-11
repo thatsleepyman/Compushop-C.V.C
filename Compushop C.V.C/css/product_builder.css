@@ -54,6 +54,8 @@
     position: relative;
     top: 1px;
 }
+
+/* Overschrijft Bootstrap col en maakt de position static */
 .col {
     position:static;
 }

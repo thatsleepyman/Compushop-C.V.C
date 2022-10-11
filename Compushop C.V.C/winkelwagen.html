@@ -16,13 +16,16 @@
     <script>
         // $ = query selector 
         $(document).ready(function () {
+            // .ready betekend dat de functie uitgevoerd kan worden als het document geladen is
             $('#content').load("header.html");
             $('#copyright').load("copyright.html");
+            // .load is een onderdeel van jQuery
         });
     </script>
 </head>
 
 <body>
+    <!--Deze div maakt de eerder ingeladen header en navigation bar "sticky-top"-->
     <div id="content" class="sticky-top"></div>
 
     <div class="container py-5 h-100">

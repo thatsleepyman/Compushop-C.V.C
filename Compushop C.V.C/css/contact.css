@@ -1,14 +1,13 @@
-
 /* style Heading & paragraaf */
 h1, p {
     margin: 1em auto;
     text-align: center;
   }
-  /* style onderlinge afstand rows*/
+  /* style onderlinge afstand rows */
 .row {
     margin: 5px !important;
 }
-  /* style card  */
+  /* style card */
 .card {
     padding-top: 30px;
     padding-bottom: 50px;

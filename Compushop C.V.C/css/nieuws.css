@@ -3,7 +3,7 @@ p {
     text-align: center;
 }
 
-/*  */
+/* Overschrijft bootstrap col en geeft dit een andere styling */
 .col {
     background-color: #d69d9d;
     margin-inline: 25px;
