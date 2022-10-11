@@ -13,7 +13,7 @@
 /* Styling h2 */
 .h2 {
     text-align: right;
-    text-shadow: #955958;
+    text-shadow: 1px 1px #955958;
     margin: 0px;
     padding-left: 80px;   
 }
