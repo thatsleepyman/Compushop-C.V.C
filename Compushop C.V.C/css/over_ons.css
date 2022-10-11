@@ -1,7 +1,7 @@
 /* Sizing van de img */
 .section img {
-    height: 50%;
-    width: 50%;
+    height: 200px;
+    width: 200px;
 }
 
 /* Styling van de tekst bij de img */
