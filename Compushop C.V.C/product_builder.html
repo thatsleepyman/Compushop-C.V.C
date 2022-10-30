@@ -40,14 +40,15 @@
             <!-- 2 kolommen voor de buttons  -->
             <div class="col col-md-2 buttons">
                 <!--Buttons voor de iFrames-->
-                <button class="myButton" onClick="keuze('iframe_huizing')">Huizing</button>
-                <button class="myButton" onClick="keuze('iframe_moederbord')">Moederbord</button>
-                <button class="myButton" onClick="keuze('iframe_cpu')">CPU</button>
-                <button class="myButton" onClick="keuze('iframe_gpu')">Grafische kaart</button>
-                <button class="myButton" onClick="keuze('iframe_ram')">RAM Geheugen</button>
-                <button class="myButton" onClick="keuze('iframe_werkgeheugen')">Werk Geheugen</button>
-                <button class="myButton" onClick="keuze('iframe_koeling')">Koeling</button>
-                <button class="myButton" onClick="keuze('iframe_voeding')">Voeding</button>
+                <button id="iframe_huizing" class="myButton" onClick="keuze('iframe_huizing')">Huizing</button>
+                <button id='iframe_moederbord' class="myButton" onClick="keuze('iframe_moederbord')">Moederbord</button>
+                <button id='iframe_cpu' class="myButton" onClick="keuze('iframe_cpu')">CPU</button>
+                <button id='iframe_gpu' class="myButton" onClick="keuze('iframe_gpu')">Grafische kaart</button>
+                <button id='iframe_ram' class="myButton" onClick="keuze('iframe_ram')">RAM Geheugen</button>
+                <button id='iframe_werkgeheugen' class="myButton" onClick="keuze('iframe_werkgeheugen')">Werk
+                    Geheugen</button>
+                <button id='iframe_koeling' class="myButton" onClick="keuze('iframe_koeling')">Koeling</button>
+                <button id='iframe_voeding' class="myButton" onClick="keuze('iframe_voeding')">Voeding</button>
             </div>
             <!-- 10 kolommen voor de iframe -->
             <div class="col col-md-10" id="iFrame"></div>
@@ -55,10 +56,19 @@
     </div>
 
     <!--Functie om iFrame in te laden na button click-->
-    <script>
+    <script>let actieve_knop;
         function keuze(test) {
+            let gedrukt = test;
+            console.log(actieve_knop + " " + gedrukt)
+
+            $("#" + gedrukt).toggleClass('choosenButton');
             $('#iFrame').load("./iframes/" + test + ".html");
+            $('#' + actieve_knop).toggleClass('choosenButton');
+
+            actieve_knop = gedrukt;
+
             // Laad  ./iframes/parameter.html in de div met iFrame dus ./iframes/cases.html  
+            console.log(actieve_knop + " " + gedrukt)
         }
     </script>
 
