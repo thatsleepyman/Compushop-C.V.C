@@ -56,19 +56,15 @@
     </div>
 
     <!--Functie om iFrame in te laden na button click-->
-    <script>let actieve_knop;
-        function keuze(test) {
-            let gedrukt = test;
-            console.log(actieve_knop + " " + gedrukt)
-
-            $("#" + gedrukt).toggleClass('choosenButton');
-            $('#iFrame').load("./iframes/" + test + ".html");
+    <script>
+        let actieve_knop;
+        function keuze(naam_iframe_bestand) {
+            let gedrukte_knop = naam_iframe_bestand;
+            $("#" + gedrukte_knop).toggleClass('choosenButton');
+            $('#iFrame').load("./iframes/" + naam_iframe_bestand + ".html");
             $('#' + actieve_knop).toggleClass('choosenButton');
-
-            actieve_knop = gedrukt;
-
+            actieve_knop = gedrukte_knop;
             // Laad  ./iframes/parameter.html in de div met iFrame dus ./iframes/cases.html  
-            console.log(actieve_knop + " " + gedrukt)
         }
     </script>
 
