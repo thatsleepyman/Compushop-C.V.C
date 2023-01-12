@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <html>
 
 <head>
-	<title>Registratie Formulier</title>
+	<title>Compushop C.V.C | Registratie Formulier</title>
 </head>
 
 <body>

@@ -8,7 +8,7 @@ include("connection.php");
 include("functions.php");
 
 
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
+if ($_SERVER['REQUEST_METHOD'] == "POST") { // POST = stuur data
 	// verstuur username en password ter controle
 	$user_name = $_POST['user_name'];
 	$password = $_POST['password'];
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <html>
 
 <head>
-	<title>Login Formulier</title>
+	<title>Compushop C.V.C | Login Formulier</title>
 </head>
 
 <body>
